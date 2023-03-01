@@ -31,16 +31,9 @@
             <div class="col-lg-12">
                                  <!-- HTML Forms v1.3.22 - https://wordpress.org/plugins/html-forms/ --><form method="post"  class="hf-form hf-form-71 " data-id="71" data-title="Home Form" data-slug="home-form" data-message-success="Thank you! We will be in touch soon." data-message-invalid-email="Sorry, that email address looks invalid." data-message-required-field-missing="Please fill in the required fields." data-message-error="Oops. An error occurred."><input type="hidden" name="_hf_form_id" value="71" /><div style="display: none;"><input type="text" name="_hf_h71" value="" /></div><div class="hf-fields-wrap"><div class="formStyle row justify-content-center">
     
-                    <div class="col-sm-6">
-                        <label for="">Full name <sup>*</sup></label>
-                        <input name="fullname" type="text" class="form-control" required>
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="">Mobile number <sup>*</sup></label>
-                        <input name="phone" type="text" class="form-control" required>
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="">Your Location <sup>*</sup></label>
+         <form action="/sasaleahjan@gmail.com" method="get">
+	    <label for="fname">First name:</label>
+	    <input type="text" id="fname" name="fname" class="form control" required>
                         <input name="location" type="text" class="form-control" required>
                     </div>
    
@@ -80,10 +73,14 @@
    
    
    						 <div class="col-sm-12">
-                        <label for="">Choose your service<sup>*</sup></label>
-                        <select name="nameservice" class="form-control servicedrop" required>
-                            
-                            
+                        <label for="Services">Choose your service:</label>
+			
+			
+                        <select name="services" id="services" class="form-control servicedrop" required>
+                           <option value="babysitting">Babysitting</option>
+			   <option value="housesitting">Housesitting</option>
+			   <option value="seniorsitting">Seniorsitting</option>
+			  
                         </select>
                     </div>
    
